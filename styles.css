@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    --max-width:65vw;
+
+}
+
+h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.title1{
+    font-weight: 400;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    background-color: #E9F0F6 ;
+}
+
+
+.section1_wrapper{
+    display: flex;
+    align-items: center;
+    width:var(--max-width);
+
+}
+.image{
+    display: flex;
+    justify-content: right;
+
+}
+
+img{
+    width: 80%;
+    height: 80%;
+}
+
+
+/* shoe cards section style */
+
+.section2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section2_wrapper{
+    display: block;
+    width:var(--max-width);
+
+}
+
+.text_wrapper{
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 1px;
+    width: 50%;
+    margin: auto;
+}
+
+.title2{
+    margin-bottom: 20px;
+}
+
+.sort_bar{
+    display: flex;
+    justify-content: right;
+}
+
+.sort_bar input[type=form]{
+    border-radius: 20px;
+
+    margin: 15px 0px;
+    padding: 10px 10px;
+    width: 17%;
+}
+
+.shoe_cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cards{
+    height: 200px;
+}
+
+
+.image_card{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.onhover {
+    position: absolute,
+}
