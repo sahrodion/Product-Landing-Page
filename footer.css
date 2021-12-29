@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    --max-width:65vw;
+
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background: none;
+    margin-top: 200px;
+}
+
+
+.footer_wrapper{
+    display: block;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    width: var(--max-width);
+    margin: auto;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.column a{
+    display: list-item;
+    list-style: none;
+    margin: 20px 0;
+    color: black;
+}
+
+.column, .address, .contact-number{
+    margin: 20px 0;
+}
+
+.column .bebeto{
+    display: inline;
+}
+
+.bottom_element{
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+}
+
+.bottom_element_container{
+    display: flex;
+    justify-content: space-between;
+    width: var(--max-width);
+    margin: auto;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.rights{
+    color: white;
+}

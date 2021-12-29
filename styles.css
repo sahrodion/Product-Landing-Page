@@ -8,6 +8,12 @@
 
 }
 
+p,a{
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
 h2{
     font-family: 'Readex Pro', sans-serif;
     font-size: 30px;
@@ -58,9 +64,6 @@ img{
 }
 
 .text_wrapper{
-    font-family: 'Readex Pro', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
     text-align: center;
     margin-bottom: 1px;
     width: 50%;
@@ -79,15 +82,17 @@ img{
 .sort_bar input[type=form]{
     border-radius: 20px;
 
-    margin: 15px 0px;
+    margin: 25px 0px;
     padding: 10px 10px;
     width: 17%;
 }
+
 
 .shoe_cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
 
 .cards{
     height: 200px;
@@ -100,6 +105,61 @@ img{
     width: 100%;
 }
 
+
 .onhover {
     position: absolute,
+}
+
+
+.view_collection_button{
+    display: flex;
+    justify-content: center;
+}
+
+
+.collection_button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    margin: 25px 0px;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+.collection_button:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.4s ease;
+}
+
+.shoe_display{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.shoe_img{
+    height: 10%;
+    width: 50%;
+}
+
+.text_section{
+    margin: 50px 0px 0px 0px;
+    width: 600px;
+}
+
+.title3{
+    font-size: 100px;
+}
+
+
+.buy_now{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    margin: 20px 0px 0px 0px;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 15px;
+    background-color: black;
 }
