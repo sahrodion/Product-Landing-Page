@@ -40,6 +40,12 @@ footer{
     font-weight: 600;
 }
 
+
+
+.icon{
+    height: 12px;
+}
+
 .column a{
     display: list-item;
     list-style: none;
@@ -51,9 +57,11 @@ footer{
     margin: 20px 0;
 }
 
+
 .column .bebeto{
     display: inline;
 }
+
 
 .bottom_element{
     display: flex;
