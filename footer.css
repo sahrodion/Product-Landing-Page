@@ -40,14 +40,21 @@ footer{
     font-weight: 600;
 }
 
+.footer-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 
 
 .icon{
-    height: 12px;
+    font-size: 1.3em;
+    margin-right: 10px
 }
 
 .column a{
-    display: list-item;
+    /* display: list-item; */
     list-style: none;
     margin: 20px 0;
     color: black;
